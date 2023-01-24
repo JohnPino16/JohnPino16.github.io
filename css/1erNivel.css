@@ -1,0 +1,31 @@
+.contenedor{
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.titulo{
+	color: #21618C;
+	grid-column: span 2;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.card{
+	height: 100%;
+}
+
+.titulos{
+	font-weight: bold;
+}
+
+.texto{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
